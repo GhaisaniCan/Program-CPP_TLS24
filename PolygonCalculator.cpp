@@ -6,7 +6,7 @@ int main() {
     string useAgain;
     double sideCount, sideLength, polygonArea, polygonCircumference;
 
-    cout << "n - sided regular polygon area calculator";
+    cout << "n - sided regular polygon area calculator\n";
     
     while (true)
     {
