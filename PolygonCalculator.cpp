@@ -23,7 +23,7 @@ int main() {
 
         cout << "do you want to keep going?[Y/n]\n";
         cin >> useAgain;
-        if (useAgain == "Y")
+        if (useAgain == "Y" || useAgain == "y")
         {
             continue;
         }
