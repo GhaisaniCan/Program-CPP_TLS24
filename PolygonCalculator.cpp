@@ -6,10 +6,11 @@ int main() {
     string useAgain;
     double sideCount, sideLength, polygonArea, polygonCircumference;
 
-    cout << "n - sided regular polygon area calculator\nNumber of sides of your polygon(whole number): ";
+    cout << "n - sided regular polygon area calculator";
     
     while (true)
     {
+        cout << "Number of sides of your polygon(whole number): ";
         cin >> sideCount;
         sideCount = floor(sideCount);
         cout << "Side length of your polygon: ";
